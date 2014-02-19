@@ -1,13 +1,8 @@
 #LoLTracker
-==========
 
 ###THIS IS AN OUT OF DATE VERSION
-==============================
 
 ######I'm extremely close to an alpha version of this application - as soon as it is finished it will be available here as an executable jar
-
-
-
 __________________________________________________________________________________________
 A multi-funtional tool for tracking friends and generating statistics in League of Legends by utilising Riot Game's API.
 Once you download the app, just run it once a day after you play your games (or after every game, I'm not your mother) and it will access and catalogue your games. By building up a large pool of games that you/your friends/whoever you want to track has played, you will be able to look at patterns, tendencies, and generate statistics.

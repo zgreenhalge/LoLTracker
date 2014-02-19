@@ -1,10 +1,10 @@
-LoLTracker
+#LoLTracker
 ==========
 
-THIS IS AN OUT OF DATE VERSION
+###THIS IS AN OUT OF DATE VERSION
 ==============================
 
-I'm extremely close to an alpha version of this application - as soon as it is finished it will be available here as an executable jar
+######I'm extremely close to an alpha version of this application - as soon as it is finished it will be available here as an executable jar
 
 
 
@@ -29,6 +29,6 @@ ________________________________________________________________________________
 
 
 
-This product is not endorsed, certified or otherwise approved in any way by Riot Games, Inc. or any of its affiliates.
+> This product is not endorsed, certified or otherwise approved in any way by Riot Games, Inc. or any of its affiliates.
 
 

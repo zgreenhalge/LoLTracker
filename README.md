@@ -13,6 +13,7 @@ Once you download the app, just run it once a day after you play your games (or 
 Currently only available as a text-based interface.
 __________________________________________________________________________________________
 <b><u>Upcoming features:</b></u>
+- auto save on update (so you can just exit without typing wuit)
 - ability to discover statistics through a custom query engine
 - current game summary
 - summary of any player's 10 most recent games
@@ -21,8 +22,8 @@ ________________________________________________________________________________
 - an actual GUI!
 - verbose output (more of a reminder to me for debugging help than for anyone else)
 
-|Current command|Function|
-|---------------|--------|
+|Current commands|Function|
+|----------------|--------|
 |add [summoner]| adds the specified summoner to the list of tracked summoners|
 |list games| lists all catalogued games in order of retrieval|
 |list (summoners)(players)| displays a list of all tracked summoenrs|

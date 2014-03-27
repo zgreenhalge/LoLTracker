@@ -13,22 +13,21 @@ Once you download the app, just run it once a day after you play your games (or 
 Currently only available as a text-based interface.
 __________________________________________________________________________________________
 <b><u>Upcoming features:</b></u>
-- auto save on update (so you can just exit without typing wuit)
+- auto save on update (so you can just exit without typing quit)
 - ability to discover statistics through a custom query engine
 - current game summary
-- summary of any player's 10 most recent games
 - link generator to allow you to access the raw JSON returned from Riot API calls
 - ability to view statistics of items and champions, not just players
 - an actual GUI!
-- verbose output (more of a reminder to me for debugging help than for anyone else)
 
 |Current commands|Function|
 |----------------|--------|
 |add [summoner]| adds the specified summoner to the list of tracked summoners|
-|list games| lists all catalogued games in order of retrieval|
+|list games -c -r| lists all catalogued games in order of retrieval, complete and ranked only flags|
 |list (summoners)(players)| displays a list of all tracked summoenrs|
-|summary -s [summonerName]| displays a summary of a tracked summoner|
+|summary -s [summonerName]| displays a summary of the specified summoner|
 |summary -g [gameId]| displays a summary of the specified game|
+
 ______________________________________________________________________________________________________________________
 
 

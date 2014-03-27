@@ -1,3 +1,4 @@
+package Tracker;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.net.URL;
@@ -14,11 +15,16 @@ public class RiotCaller {
 	private long BETA_KEY = 1200;
 	private long DEV_KEY = 120;
 	
-	//TODO DEBUG multi key use
+	/**
+	 * 
+	 *API RATE LIMITS
+	 *500 REQUESTS/10 MINUTES
+	 *10 REQUESTS/10 SECONDS
+	 * 
+	 **/
 	
 	private long REQ_WAIT = BETA_KEY;
 	
-	private Object WAIT_LOCK = new Object();
 	private CallArray cache = new CallArray();
 	private PriorityBlockingQueue<CallStruct> callQueue = new PriorityBlockingQueue<CallStruct>();
 	private KeyChain keychain = new KeyChain();
@@ -53,10 +59,10 @@ public class RiotCaller {
 	}
 	
 	private void silentWaitForCall(Key k) throws Exception{
-		synchronized(WAIT_LOCK){
+		synchronized(k.WAIT_LOCK){
 			while(!k.usable())
 				try {
-					WAIT_LOCK.wait(REQ_WAIT/keychain.size());
+					k.WAIT_LOCK.wait(REQ_WAIT/keychain.size());
 				} catch (InterruptedException e) {
 					throw new Exception("Connection to Riot servers failed - please try again.");
 				}
@@ -64,12 +70,12 @@ public class RiotCaller {
 	}
 	
 	private void waitForCall(Key k) throws Exception{
-		synchronized(WAIT_LOCK){
+		synchronized(k.WAIT_LOCK){
 			System.out.print("Waiting for Riot servers");
 			while(!k.usable()){
 				System.out.print(".");
 				try {
-					WAIT_LOCK.wait(REQ_WAIT/keychain.size());
+					k.WAIT_LOCK.wait(REQ_WAIT/keychain.size());
 				} catch (InterruptedException e) {
 					throw new Exception("Connection to Riot servers failed - please try again.");
 				}
@@ -106,8 +112,8 @@ public class RiotCaller {
 					else waitForCall(key);
 				}
 				else if(e.getMessage().contains("401"))
-					synchronized(WAIT_LOCK){
-						WAIT_LOCK.wait(1000);
+					synchronized(key.WAIT_LOCK){
+						key.WAIT_LOCK.wait(1000);
 					}
 				this.call(key);
 				return this;
@@ -215,6 +221,7 @@ public class RiotCaller {
 	
 	private class Key{
 		
+		public Object WAIT_LOCK = new Object();
 		private String key;
 		private long lastCall;
 		

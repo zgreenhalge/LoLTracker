@@ -1,12 +1,9 @@
-import java.net.URL;
+package Tracker;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-
 import java.lang.reflect.Type;
 
 
@@ -16,14 +13,21 @@ public class RiotAPI {
 	private static Gson creator = new Gson();
 	private static RiotCaller caller = new RiotCaller();
 	
-	/**
-	 * 
-	 *API RATE LIMITS
-	 *500 REQUESTS/10 MINUTES
-	 *10 REQUESTS/10 SECONDS
-	 * @throws Exception 
-	 * 
-	 **/
+	public static ArrayList<QueueSummary> getSummary(int summonerId) throws Exception{
+		SummaryReturn temp = null;
+		String string;
+		try{
+			reqURL = "https://prod.api.pvp.net/api/lol/na/v1.2/stats/by-summoner/"
+																+ summonerId + "/summary?season=SEASON4&api_key=";
+			string = caller.getJson(reqURL);
+		}
+		catch(Exception e){
+			Logger.loudLogLine("Problem retrieving summary for summoner " + summonerId);
+			throw e;
+		}
+		temp = creator.fromJson(string, SummaryReturn.class);
+		return temp.playerStatSummaries;
+	}
 	
 	public static PlayerReturn getSummoner(String summonerName) throws Exception{
 		PlayerReturn temp = null;
@@ -33,7 +37,8 @@ public class RiotAPI {
 														+ summonerName + "?api_key=";
 			string = caller.getJson(reqURL).toCharArray();
 		} catch (Exception e) {
-			throw new Exception("Problem retrieving summoner " + summonerName + ". Please check your spelling.");
+			Logger.loudLogLine("Problem retrieving summoner " + summonerName + ". Please check your spelling.");
+			throw e;
 		}
 		boolean go=false;
 		String finalString = "";
@@ -129,6 +134,11 @@ public class RiotAPI {
 	
 	private class ItemReturn{
 		ArrayList<Item> data;
+	}
+	
+	private class SummaryReturn{
+		ArrayList<QueueSummary> playerStatSummaries;
+		
 	}
 	
 	public class PlayerReturn{

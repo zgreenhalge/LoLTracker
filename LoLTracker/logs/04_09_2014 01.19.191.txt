@@ -1,0 +1,288 @@
+
+Checking saved files..
+Loading static data..
+Loading data for 24945987
+  ChaosRefined:24945987 (Lvl 30) - 56 games loaded.
+ created!
+ created!
+Problem retrieving summoner's 36810467 recent games
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+Tracker.RiotCaller.getJson(RiotCaller.java:47)
+Tracker.RiotAPI.getRecentGames(RiotAPI.java:100)
+Tracker.Player.updateRecent(Player.java:167)
+Tracker.Player.findPlayerById(Player.java:228)
+Tracker.GameStat.<init>(GameStat.java:53)
+Tracker.Player.update(Player.java:152)
+Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+Tracker.IOHandler.init(IOHandler.java:107)
+Tracker.Main.main(Main.java:24)
+#####################################
+#####################################
+Exception: Game 1339586918 does not exist in recent games
+  shrouded unknown:36810467
+ Game 1339586918 does not exist in recent games
+  shrouded unknown:36810467
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+Problem retrieving summoner 40731085
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+   Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+   Tracker.RiotCaller.getJson(RiotCaller.java:47)
+   Tracker.RiotAPI.getSummonerById(RiotAPI.java:72)
+   Tracker.Player.findPlayerById(Player.java:226)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+Problem retrieving summoner 37994299
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+   Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+   Tracker.RiotCaller.getJson(RiotCaller.java:47)
+   Tracker.RiotAPI.getSummonerById(RiotAPI.java:72)
+   Tracker.Player.findPlayerById(Player.java:226)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+Problem retrieving summoner 23974637
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+   Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+   Tracker.RiotCaller.getJson(RiotCaller.java:47)
+   Tracker.RiotAPI.getSummonerById(RiotAPI.java:72)
+   Tracker.Player.findPlayerById(Player.java:226)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+Problem retrieving summoner 91691
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+   Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+   Tracker.RiotCaller.getJson(RiotCaller.java:47)
+   Tracker.RiotAPI.getSummonerById(RiotAPI.java:72)
+   Tracker.Player.findPlayerById(Player.java:226)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+Problem retrieving summoner 32520990
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+   Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+   Tracker.RiotCaller.getJson(RiotCaller.java:47)
+   Tracker.RiotAPI.getSummonerById(RiotAPI.java:72)
+   Tracker.Player.findPlayerById(Player.java:226)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+Problem retrieving summoner 31743096
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+   Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+   Tracker.RiotCaller.getJson(RiotCaller.java:47)
+   Tracker.RiotAPI.getSummonerById(RiotAPI.java:72)
+   Tracker.Player.findPlayerById(Player.java:226)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+Problem retrieving summoner 35861225
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+   Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+   Tracker.RiotCaller.getJson(RiotCaller.java:47)
+   Tracker.RiotAPI.getSummonerById(RiotAPI.java:72)
+   Tracker.Player.findPlayerById(Player.java:226)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+Loading data for 25118159
+Problem retrieving summoner's 25118159 recent games
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+Tracker.RiotCaller.getJson(RiotCaller.java:47)
+Tracker.RiotAPI.getRecentGames(RiotAPI.java:100)
+Tracker.Player.updateRecent(Player.java:167)
+Tracker.IOHandler.loadPlayer(IOHandler.java:218)
+Tracker.IOHandler.init(IOHandler.java:107)
+Tracker.Main.main(Main.java:24)
+#####################################
+  celticdragon:25118159 (Lvl 30) - 52 games loaded.
+Problem retrieving summoner's 25118159 recent games
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+Tracker.RiotCaller.getJson(RiotCaller.java:47)
+Tracker.RiotAPI.getRecentGames(RiotAPI.java:100)
+Tracker.Player.update(Player.java:142)
+Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+Tracker.IOHandler.init(IOHandler.java:107)
+Tracker.Main.main(Main.java:24)
+#####################################
+Loading data for 35534142
+Problem retrieving summoner's 35534142 recent games
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+Tracker.RiotCaller.getJson(RiotCaller.java:47)
+Tracker.RiotAPI.getRecentGames(RiotAPI.java:100)
+Tracker.Player.updateRecent(Player.java:167)
+Tracker.IOHandler.loadPlayer(IOHandler.java:218)
+Tracker.IOHandler.init(IOHandler.java:107)
+Tracker.Main.main(Main.java:24)
+#####################################
+  Ginja Ninja2:35534142 (Lvl 30) - 25 games loaded.
+Problem retrieving summoner's 35534142 recent games
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+Tracker.RiotCaller.getJson(RiotCaller.java:47)
+Tracker.RiotAPI.getRecentGames(RiotAPI.java:100)
+Tracker.Player.update(Player.java:142)
+Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+Tracker.IOHandler.init(IOHandler.java:107)
+Tracker.Main.main(Main.java:24)
+#####################################
+Loading data for 35595129
+Problem retrieving summoner's 35595129 recent games
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+Tracker.RiotCaller.getJson(RiotCaller.java:47)
+Tracker.RiotAPI.getRecentGames(RiotAPI.java:100)
+Tracker.Player.updateRecent(Player.java:167)
+Tracker.IOHandler.loadPlayer(IOHandler.java:218)
+Tracker.IOHandler.init(IOHandler.java:107)
+Tracker.Main.main(Main.java:24)
+#####################################
+  Brotoss Jump:35595129 (Lvl 30) - 26 games loaded.
+Problem retrieving summoner's 35595129 recent games
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+Tracker.RiotCaller.getJson(RiotCaller.java:47)
+Tracker.RiotAPI.getRecentGames(RiotAPI.java:100)
+Tracker.Player.update(Player.java:142)
+Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+Tracker.IOHandler.init(IOHandler.java:107)
+Tracker.Main.main(Main.java:24)
+#####################################
+Loading data for 35800238
+Problem retrieving summoner's 35800238 recent games
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+Tracker.RiotCaller.getJson(RiotCaller.java:47)
+Tracker.RiotAPI.getRecentGames(RiotAPI.java:100)
+Tracker.Player.updateRecent(Player.java:167)
+Tracker.IOHandler.loadPlayer(IOHandler.java:218)
+Tracker.IOHandler.init(IOHandler.java:107)
+Tracker.Main.main(Main.java:24)
+#####################################
+  Honest Abe1:35800238 (Lvl 30) - 42 games loaded.
+Problem retrieving summoner's 35800238 recent games
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+Tracker.RiotCaller.getJson(RiotCaller.java:47)
+Tracker.RiotAPI.getRecentGames(RiotAPI.java:100)
+Tracker.Player.update(Player.java:142)
+Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+Tracker.IOHandler.init(IOHandler.java:107)
+Tracker.Main.main(Main.java:24)
+#####################################
+Loading data for 46992754
+Problem retrieving summoner's 46992754 recent games
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+Tracker.RiotCaller.getJson(RiotCaller.java:47)
+Tracker.RiotAPI.getRecentGames(RiotAPI.java:100)
+Tracker.Player.updateRecent(Player.java:167)
+Tracker.IOHandler.loadPlayer(IOHandler.java:218)
+Tracker.IOHandler.init(IOHandler.java:107)
+Tracker.Main.main(Main.java:24)
+#####################################
+  SeptimusAstrum:46992754 (Lvl 30) - 37 games loaded.
+Problem retrieving summoner's 46992754 recent games
+#####################################
+Exception: Problem connecting to host - please check your internet connection
+ Problem connecting to host - please check your internet connection
+Tracker.RiotCaller$CallStruct.call(RiotCaller.java:107)
+Tracker.RiotCaller.getJson(RiotCaller.java:47)
+Tracker.RiotAPI.getRecentGames(RiotAPI.java:100)
+Tracker.Player.update(Player.java:142)
+Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+Tracker.IOHandler.init(IOHandler.java:107)
+Tracker.Main.main(Main.java:24)
+#####################################
+Initialization completed!
+
+Welcome to the League of Legends Statistical Database and Player Tracker!
+-------------------------04/09/2014 14:07:29--------------------------
+ (This product is not endorsed, certified or otherwise approved)
+    (in any way by Riot Games, Inc. or any of its affiliates.)
+
+Currently tracking: 6
+ ChaosRefined:24945987 (Lvl 30) - 66 games
+ celticdragon:25118159 (Lvl 30) - 52 games
+ Ginja Ninja2:35534142 (Lvl 30) - 25 games
+ Brotoss Jump:35595129 (Lvl 30) - 26 games
+ Honest Abe1:35800238 (Lvl 30) - 42 games
+ SeptimusAstrum:46992754 (Lvl 30) - 37 games
+
+ Complete Only___________false
+ Dev mode enabled________true
+ Known incomplete games (150/237): 1315842627,1315818099,1315813916,1315342945,1315156312,1315005183,1314019628,1313981781,1313942611,1313869985,1313824834,1312895954,1311859677,1307974260,1306911446,1306807673,1305836511,1314564605,1314532966,1314490660,1314215677,1314159248,1314108267,1314059522,1316486400,1315970338,1315929471,1315446650,1315349552,1322459258,1322412862,1322380281,1322352996,1322321643,1322209318,1322193852,1321037879,1319565125,1319479102,1323160393,1323063270,1322218704,1322101138,1321143680,1321084736,1319254966,1319187266,1319163851,1318964534,1318778102,1318599434,1318419270,1317551024,1317448812,1317406306,1323779819,1321482452,1321441366,1320398378,1320376623,1320276115,1319115351,1320284681,1320809487,1321193907,1321840601,1321939561,1323113881,1321006775,1321367279,1321835893,1323765724,1325007078,1325024753,1325216485,1328205550,1329046054,1330228944,1331716872,1331756854,1333432417,1333473771,1333575856,1334225595,1334239148,1334295198,1334331340,1334348791,1334377589,1335635807,1328818648,1328951042,1328963290,1330022103,1330849568,1331621194,1333086820,1333133838,1333166701,1333205701,1329174510,1329319923,1333794889,1333834579,1328318862,1328358135,1328403680,1328463111,1331966887,1328283545,1329216741,1330694653,1330759072,1331611732,1331641986,1331678099,1333017365,1333042894,1333215904,1333253079,1334165401,1334169296,1335891206,1335920148,1335946069,1327885429,1330257700,1330370799,1330425365,1330475727,1331570668,1331590109,1331634268,1334409322,1334880871,1334952881,1335886117,1337321378,1336935887,1336883076,1336870075,1337494399,1339051626,1339416836,1339485477,1339586918,1338543979,1338511065,1337503702,1337465782

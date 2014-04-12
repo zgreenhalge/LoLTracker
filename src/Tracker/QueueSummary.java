@@ -1,5 +1,10 @@
 package Tracker;
 
+/**
+ * A struct for holding queue metadata and the related AggregatedStats structs.&nbsp; Passed back from Riot servers.
+ * @author Zach Greenhalge
+ * @see AggregatedStats
+ */
 public class QueueSummary {
 
 	String playerStatSummaryType;
@@ -8,6 +13,10 @@ public class QueueSummary {
 	int wins;
 	int losses;
 	
+	/**
+	 * Generates the correct summary String based on the Queue Type that this QueueSummary is of.
+	 * @return a String summary of the Queue
+	 */
 	public String summary(){
 		if(wins == 0 && losses == 0 && aggregatedStats == null)
 			return "";

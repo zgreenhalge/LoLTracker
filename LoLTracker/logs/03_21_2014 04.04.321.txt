@@ -1,0 +1,170 @@
+
+
+Welcome to the League of Legends Statistical Database and Player Tracker!
+-------------------------03/21/2014 16:04:36--------------------------
+ (This product is not endorsed, certified or otherwise approved)
+    (in any way by Riot Games, Inc. or any of its affiliates.)
+
+Currently tracking: 4
+ ChaosRefined:24945987 (Lvl 30) - 10 games
+ celticdragon:25118159 (Lvl 30) - 10 games
+ Brotoss Jump:35595129 (Lvl 30) - 7 games
+ Ginja Ninja2:35534142 (Lvl 30) - 8 games
+
+ Complete Only___________false
+ Dev mode enabled________true
+ Known incomplete games (29): 1315842627,1315818099,1315813916,1315342945,1315156312,1315005183,1314019628,1313981781,1313942611,1313869985,1313824834,1312895954,1311859677,1307974260,1306911446,1306807673,1305836511,1314564605,1314532966,1314490660,1314215677,1314159248,1314108267,1314059522,1316486400,1315970338,1315929471,1315446650,1315349552
+
+>settings -c
+Complete games only: false -> true
+
+>list games
+
+(1) ID: 1305836511 RANKED_SOLO_5x5 (INCOMPLETE) 03/11/2014 19:41:45
+    Played by: celticdragon:25118159 (LOSS)
+    00K/09D/07A 0.78KDA 63CS (6287 gold) as Zac
+
+(2) ID: 1306807673 NORMAL (INCOMPLETE) 03/12/2014 16:35:22
+    Played by: celticdragon:25118159 (LOSS)
+    03K/05D/08A 2.20KDA 31CS (6070 gold) as Morgana
+
+(3) ID: 1306911446 NORMAL (INCOMPLETE) 03/12/2014 17:33:47
+    Played by: celticdragon:25118159 (WON)
+    03K/06D/17A 3.33KDA 130CS (13610 gold) as Zac
+
+(4) ID: 1307974260 NORMAL (INCOMPLETE) 03/13/2014 18:02:19
+    Played by: celticdragon:25118159 (LOSS)
+    01K/07D/04A 0.71KDA 16CS (5976 gold) as Morgana
+
+(5) ID: 1311859677 NONE (INCOMPLETE) 03/17/2014 15:20:30
+    Played by: celticdragon:25118159 (LOSS)
+    02K/04D/00A 0.50KDA 87CS (8152 gold) as Velkoz
+
+(6) ID: 1312895954 NORMAL (INCOMPLETE) 03/17/2014 18:44:25
+    Played by: celticdragon:25118159 (LOSS)
+    01K/12D/09A 0.83KDA 100CS (8685 gold) as Singed
+
+(7) ID: 1313824834 NORMAL (INCOMPLETE) 03/18/2014 16:23:07
+    Played by: celticdragon:25118159 (WON)
+    01K/09D/19A 2.22KDA 22CS (11628 gold) as Thresh
+
+(8) ID: 1313869985 NORMAL (INCOMPLETE) 03/18/2014 17:20:33
+    Played by: celticdragon:25118159 (WON)
+    03K/11D/19A 2.00KDA 23CS (14433 gold) as Thresh
+
+(9) ID: 1313942611 NORMAL (INCOMPLETE) 03/18/2014 18:57:42
+    Played by: celticdragon:25118159 (LOSS)
+    00K/08D/07A 0.88KDA 16CS (7967 gold) as Morgana
+
+(10) ID: 1313981781 NORMAL (INCOMPLETE) 03/18/2014 19:30:29
+    Played by: celticdragon:25118159 (WON)
+    02K/01D/13A 15.00KDA 8CS (6921 gold) as Thresh
+
+(11) ID: 1314019628 NORMAL (INCOMPLETE) 03/18/2014 20:41:52
+    Played by: ChaosRefined:24945987 (LOSS)
+    00K/05D/00A 0.00KDA 80CS (4869 gold) as DrMundo
+
+(12) ID: 1314059522 RANKED_SOLO_5x5 (INCOMPLETE) 03/18/2014 21:26:32
+    Played by: Brotoss Jump:35595129 (LOSS)
+    02K/06D/03A 0.83KDA 139CS (9222 gold) as Nidalee
+
+(13) ID: 1314108267 NORMAL (INCOMPLETE) 03/18/2014 22:25:04
+    Played by: Brotoss Jump:35595129 (WON)
+    09K/02D/15A 12.00KDA 269CS (16826 gold) as Caitlyn
+
+(14) ID: 1314159248 NORMAL (INCOMPLETE) 03/18/2014 23:03:30
+    Played by: Brotoss Jump:35595129 (WON)
+    02K/02D/02A 2.00KDA 199CS (8901 gold) as Syndra
+
+(15) ID: 1314215677 NORMAL (INCOMPLETE) 03/18/2014 23:51:13
+    Played by: Brotoss Jump:35595129 (WON)
+    08K/03D/05A 4.33KDA 227CS (14479 gold) as Riven
+
+(16) ID: 1314490660 NORMAL (INCOMPLETE) 03/19/2014 00:33:05
+    Played by: Brotoss Jump:35595129 (WON)
+    11K/05D/08A 3.80KDA 150CS (12499 gold) as Nidalee
+
+(17) ID: 1314532966 NORMAL (INCOMPLETE) 03/19/2014 01:29:46
+    Played by: Brotoss Jump:35595129 (LOSS)
+    11K/12D/08A 1.58KDA 122CS (13757 gold) as Riven
+
+(18) ID: 1314564605 NORMAL (INCOMPLETE) 03/19/2014 02:19:45
+    Played by: Brotoss Jump:35595129 (LOSS)
+    04K/09D/06A 1.11KDA 128CS (11316 gold) as LeeSin
+
+(19) ID: 1315005183 RANKED_SOLO_5x5 (INCOMPLETE) 03/19/2014 19:41:57
+    Played by: ChaosRefined:24945987 (LOSS)
+    00K/04D/01A 0.25KDA 90CS (5470 gold) as Ashe
+
+(20) ID: 1315156312 ODIN_UNRANKED (INCOMPLETE) 03/19/2014 21:14:25
+    Played by: ChaosRefined:24945987 (WON)
+    03K/04D/10A 3.25KDA 13CS (6509 gold) as Khazix
+
+(21) ID: 1315342945 NORMAL (INCOMPLETE) 03/19/2014 21:53:58
+    Played by: ChaosRefined:24945987 (WON)
+    07K/05D/03A 2.00KDA 140CS (10616 gold) as DrMundo
+
+(22) ID: 1315349552 RANKED_SOLO_5x5 (INCOMPLETE) 03/19/2014 22:37:28
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    03K/09D/11A 1.56KDA 36CS (11857 gold) as Sona
+
+(23) ID: 1315446650 RANKED_SOLO_5x5 (INCOMPLETE) 03/19/2014 23:29:05
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    02K/05D/00A 0.40KDA 206CS (10886 gold) as Trundle
+
+(24) ID: 1315769337 NORMAL (COMPLETE) on 03/20/2014 12:44:08
+    Played by: ChaosRefined:24945987 (WON)
+    06K/07D/19A 3.57KDA 149CS (15521 gold) as Nidalee
+    Contribution: +10%
+
+(25) ID: 1315813916 NORMAL (INCOMPLETE) 03/20/2014 13:28:16
+    Played by: ChaosRefined:24945987 (LOSS)
+    01K/04D/03A 1.00KDA 201CS (10116 gold) as Nidalee
+
+(26) ID: 1315818099 NORMAL (INCOMPLETE) 03/20/2014 14:05:25
+    Played by: ChaosRefined:24945987 (LOSS)
+    00K/02D/03A 1.50KDA 49CS (5763 gold) as Evelynn
+
+(27) ID: 1315842627 NORMAL (INCOMPLETE) 03/20/2014 14:47:40
+    Played by: ChaosRefined:24945987 (WON)
+    09K/03D/05A 4.67KDA 178CS (14428 gold) as Khazix
+
+(28) ID: 1315864421 RANKED_SOLO_5x5 (COMPLETE) on 03/20/2014 16:03:11
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    01K/05D/12A 2.60KDA 7CS (9395 gold) as Janna
+    Contribution: +06%
+
+(29) ID: 1315889675 RANKED_SOLO_5x5 (COMPLETE) on 03/20/2014 16:55:05
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    03K/06D/08A 1.83KDA 195CS (11675 gold) as Renekton
+    Contribution: +04%
+
+(30) ID: 1315929471 RANKED_SOLO_5x5 (INCOMPLETE) 03/20/2014 17:37:51
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    01K/04D/06A 1.75KDA 196CS (10100 gold) as Jinx
+
+(31) ID: 1315970338 RANKED_SOLO_5x5 (INCOMPLETE) 03/20/2014 18:31:21
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    05K/07D/14A 2.71KDA 212CS (14806 gold) as Jinx
+
+(32) ID: 1316452706 RANKED_SOLO_5x5 (COMPLETE) on 03/20/2014 22:40:27
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    02K/03D/02A 1.33KDA 207CS (9197 gold) as Varus
+    Contribution: +14%
+
+(33) ID: 1316486400 RANKED_SOLO_5x5 (INCOMPLETE) 03/20/2014 23:32:22
+    Played by: Ginja Ninja2:35534142 (WON)
+    07K/01D/17A 24.00KDA 192CS (14971 gold) as Nocturne
+
+(34) ID: 1316517772 NORMAL (COMPLETE) on 03/21/2014 00:19:16
+    Played by: ChaosRefined:24945987 (WON)
+    03K/05D/11A 2.80KDA 216CS (13092 gold) as Caitlyn
+    Contribution: +08%
+
+(35) ID: 1316587161 NORMAL (COMPLETE) on 03/21/2014 00:52:17
+    Played by: ChaosRefined:24945987 (LOSS)
+    02K/05D/03A 1.00KDA 113CS (6477 gold) as DrMundo
+    Contribution: +10%
+
+>quit
+Cleaning up...

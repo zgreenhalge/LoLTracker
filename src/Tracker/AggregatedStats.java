@@ -1,5 +1,13 @@
 package Tracker;
 
+/**
+ * A structure for aggregated data elating to a specific Queue type.&nbsp;
+ * There are no getters or setters, instead all fields are public for ease-of-use.
+ * 
+ * @author Zach Greenhalge
+ * @see QueueSummary
+ *
+ */
 public class AggregatedStats{
 	
 	public int averageAssists;

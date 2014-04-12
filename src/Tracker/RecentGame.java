@@ -1,7 +1,11 @@
 package Tracker;
 import java.util.ArrayList;
 
-
+/**
+ * A struct for holding data surrounding a a specific game.&nbsp;
+ * More specifically, it is an Object representation of the JSON passed from Riot servers. 
+ *
+ */
 public class RecentGame {
 
      public int summonerId;

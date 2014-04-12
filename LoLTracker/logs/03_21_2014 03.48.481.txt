@@ -1,0 +1,51 @@
+
+
+Welcome to the League of Legends Statistical Database and Player Tracker!
+-------------------------03/21/2014 15:48:52--------------------------
+ (This product is not endorsed, certified or otherwise approved)
+    (in any way by Riot Games, Inc. or any of its affiliates.)
+
+Currently tracking: 4
+ ChaosRefined:24945987 (Lvl 30) - 10 games
+ celticdragon:25118159 (Lvl 30) - 10 games
+ Brotoss Jump:35595129 (Lvl 30) - 7 games
+ Ginja Ninja2:35534142 (Lvl 30) - 8 games
+
+ Complete Only___________false
+ Dev mode enabled________true
+ Known incomplete games: NONE
+
+>list games -c
+
+(1) ID: 1315769337 NORMAL (COMPLETE) on 03/20/2014 12:44:08
+    Played by: ChaosRefined:24945987 (WON)
+    06K/07D/19A 3.57KDA 149CS (15521 gold) as Nidalee
+    Contribution: -03%
+
+(2) ID: 1315864421 RANKED_SOLO_5x5 (COMPLETE) on 03/20/2014 16:03:11
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    01K/05D/12A 2.60KDA 7CS (9395 gold) as Janna
+    Contribution: -07%
+
+(3) ID: 1315889675 RANKED_SOLO_5x5 (COMPLETE) on 03/20/2014 16:55:05
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    03K/06D/08A 1.83KDA 195CS (11675 gold) as Renekton
+    Contribution: -03%
+
+(4) ID: 1316452706 RANKED_SOLO_5x5 (COMPLETE) on 03/20/2014 22:40:27
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    02K/03D/02A 1.33KDA 207CS (9197 gold) as Varus
+    Contribution: +06%
+
+(5) ID: 1316517772 NORMAL (COMPLETE) on 03/21/2014 00:19:16
+    Played by: ChaosRefined:24945987 (WON)
+    03K/05D/11A 2.80KDA 216CS (13092 gold) as Caitlyn
+    Contribution: -05%
+
+(6) ID: 1316587161 NORMAL (COMPLETE) on 03/21/2014 00:52:17
+    Played by: ChaosRefined:24945987 (LOSS)
+    02K/05D/03A 1.00KDA 113CS (6477 gold) as DrMundo
+    Contribution: -01%
+
+>quit
+Cleaning up...

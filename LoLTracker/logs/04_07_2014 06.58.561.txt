@@ -1,0 +1,23 @@
+
+Checking saved files..
+Loading data for 24945987
+  ChaosRefined:24945987 (Lvl 30) - 51 games loaded.
+ created!
+Loading data for 25118159
+  celticdragon:25118159 (Lvl 30) - 51 games loaded.
+Loading data for 35534142
+  Ginja Ninja2:35534142 (Lvl 30) - 25 games loaded.
+Loading data for 35595129
+  Brotoss Jump:35595129 (Lvl 30) - 26 games loaded.
+Loading data for 35800238
+  Honest Abe1:35800238 (Lvl 30) - 35 games loaded.
+Loading data for 46992754
+  SeptimusAstrum:46992754 (Lvl 30) - 34 games loaded.
+Initialization completed!
+ChaosRefined found in the system!
+Brotoss Jump found in the system!
+celticdragon found in the system!
+Ginja Ninja2 found in the system!
+Honest Abe1 found in the system!
+SeptimusAstrum found in the system!
+All players are up-to-date with Riot servers

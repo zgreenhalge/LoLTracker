@@ -1,0 +1,34 @@
+
+
+Welcome to the League of Legends Statistical Database and Player Tracker!
+-------------------------03/21/2014 16:07:46--------------------------
+ (This product is not endorsed, certified or otherwise approved)
+    (in any way by Riot Games, Inc. or any of its affiliates.)
+
+Currently tracking: 4
+ ChaosRefined:24945987 (Lvl 30) - 3 games
+ celticdragon:25118159 (Lvl 30) - 0 games
+ Brotoss Jump:35595129 (Lvl 30) - 0 games
+ Ginja Ninja2:35534142 (Lvl 30) - 3 games
+
+ Complete Only___________true
+ Dev mode enabled________true
+ Known incomplete games (29/6): 1315842627,1315818099,1315813916,1315342945,1315156312,1315005183,1314019628,1313981781,1313942611,1313869985,1313824834,1312895954,1311859677,1307974260,1306911446,1306807673,1305836511,1314564605,1314532966,1314490660,1314215677,1314159248,1314108267,1314059522,1316486400,1315970338,1315929471,1315446650,1315349552
+
+>settings -c
+Complete games only: true -> false
+
+>list games
+#####################################
+Exception: java.util.ArrayList cannot be cast to java.lang.Boolean
+ java.util.ArrayList cannot be cast to java.lang.Boolean
+Tracker.InputHandler.listGames(InputHandler.java:272)
+Tracker.InputHandler.handleInput(InputHandler.java:134)
+Tracker.InputHandler.takeInput(InputHandler.java:69)
+Tracker.InputHandler.start(InputHandler.java:26)
+Tracker.IOHandler.init(IOHandler.java:93)
+Tracker.Main.main(Main.java:20)
+#####################################
+
+>quit
+Cleaning up...

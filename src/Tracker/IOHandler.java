@@ -3,6 +3,7 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
+import java.io.IOException;
 
 
 import java.io.FileWriter;
@@ -16,46 +17,63 @@ import Utils.Time;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-
+/**
+ * Handles all reading and writing that interacts with the disk.&nbsp;
+ * Has methods to save and load players, update all static data, save and load state from disk, and clean the disk to match current state.
+ * 
+ * @author Zach Greenhalge
+ *
+ */
 public class IOHandler {
 
 	public static boolean canWrite = true;
-	public static Object sync = new Object();
-	private InputHandler ih;
+	public static final Object sync = new Object();
 	private BufferedWriter bw;
 	private BufferedReader br;
-	private File playerDir;
-	private File logDir;
-	private File root;
-	private File resources;
-	private File championData;
-	private File itemData;
-	private File configVars;
+	private static File playerDir;
+	private static File logDir;
+	private static File root;
+	private static File resources;
+	private static File championData;
+	private static File itemData;
+	private static File configVars;
 	public static Gson gson;
-	private Type championList;
-	private Type itemList;
-	private List<File> toBeDeleted;
+	private final Type championList;
+	private final Type itemList;
+	private final List<File> toBeDeleted;
 	
-	public IOHandler() throws Exception{
-		root = Main.root;
+	/**
+	 * Creates a new IOHandler with the given File as the root directory. 
+	 * 
+	 * @param root - File representation of the desired root path
+	 * @throws IOException when there are issues writing to disk
+	 */
+	public IOHandler(File root) throws IOException{
+		IOHandler.root = root;
 		playerDir = new File(root, "players");
 		logDir = new File(root, "logs");
 		resources = new File(root, "resources");
+                resources.mkdir();
 		championData = new File(resources, "champions.txt");
 		itemData = new File(resources, "items.txt");
 		configVars = new File(resources, "config.txt");
-		resources.mkdir();
 		playerDir.mkdir();
 		logDir.mkdir();
 		configVars.createNewFile();
 		gson = new Gson();
 		toBeDeleted = new ArrayList<File>();
-		ih = new InputHandler();
 		championList = new TypeToken<ArrayList<Champion>>(){}.getType();
 		itemList = new TypeToken<ArrayList<Item>>(){}.getType();
 	}
-	
-	public void init() throws Exception{
+        
+	/**
+	 * Loads all static data, as well as all players and the config file.
+	 * This class can throw exceptions after a patch due to Champion.&nbsp;init() and Item.&nbsp;init()
+	 * 
+	 * @throws IOException when there are IO problems
+	 * @throws Exception when a Champion/Item cannot be found.
+	 */
+	public void init() throws IOException, Exception{
 		synchronized(sync){
 			if(championData.exists()){
 				br = new BufferedReader(new FileReader(championData));
@@ -90,15 +108,59 @@ public class IOHandler {
 		}
 		if(br != null)
 			br.close();
-		ih.start();
+                Logger.loudLogLine("Initialization completed!");
 	}
 	
+	/**
+	 * Updates all static data.
+	 * @throws Exception when a Champion or Item cannot be found.
+	 * @see Champion
+	 * @see Item
+	 */
 	public static void updateData() throws Exception{
 		Champion.init();
 		Item.init();
 	}
 	
+	/**
+	 * Saves the given Player and all their associated games to disk.
+	 * 
+	 * @param p - the Player to be saved
+	 */
+	public static void savePlayer(Player p){
+		File personalDir = new File(playerDir, ""+p.id);
+		File personalGames = new File(personalDir, "games");
+		File playerDat = new File(personalDir, p.id + ".txt");
+		File tempGame;
+		personalGames.mkdirs();
+		if(playerDat.exists()){
+			playerDat.delete();
+		}
+		try{
+			BufferedWriter bw = new BufferedWriter(new FileWriter(playerDat));
+			bw.write(gson.toJson(p));
+			bw.flush();
+			for(GameStat g: p.getGames()){
+				tempGame = new File(personalGames, Time.setDate(g.gameDate).fileDate() + "_" + g.gameId + ".txt");
+				if(!tempGame.exists()){
+					bw = new BufferedWriter(new FileWriter(tempGame));
+					bw.write(gson.toJson(g));
+					bw.flush();
+				}
+			}
+			bw.close();
+		}catch(IOException e){
+			Logger.loudLogLine("***Error logging player " + p.id + "***");
+			Logger.loudLog(e);
+		}	
+	}
+        
 	//TODO add auto-update in InputHandler, addPlayer
+	/**
+	 * Writes all data to disk.&nbsp; 
+	 * If there is data on disk that no longer exists in the running environment, it is marked for deletion.
+	 * 
+	 */
 	public void matchDiskToLive(){
 		synchronized(sync){	
 			if(!canWrite){
@@ -114,36 +176,12 @@ public class IOHandler {
 				bw = new BufferedWriter(new FileWriter(configVars));
 				bw.write(gson.toJson(ConfigVars.getVars()));
 				bw.flush();
-			}catch(Exception e){
+			}catch(IOException e){
 				Logger.loudLog(e);
 			}
 			List<File> indvPlayerDirs = Arrays.asList(playerDir.listFiles());
 			for(Player p: Player.getTracked()){
-				File personalDir = new File(playerDir, ""+p.id);
-				File personalGames = new File(personalDir, "games");
-				File playerDat = new File(personalDir, p.id + ".txt");
-				File tempGame;
-				personalGames.mkdirs();
-				if(playerDat.exists()){
-					playerDat.delete();
-				}
-				try{
-					bw = new BufferedWriter(new FileWriter(playerDat));
-					bw.write(gson.toJson(p));
-					bw.flush();
-					for(GameStat g: p.getGames()){
-						tempGame = new File(personalGames, Time.setDate(g.gameDate).fileDate() + "_" + g.gameId + ".txt");
-						if(!tempGame.exists()){
-							bw = new BufferedWriter(new FileWriter(tempGame));
-							bw.write(gson.toJson(g));
-							bw.flush();
-						}
-					}
-					bw.close();
-				}catch(Exception e){
-					Logger.loudLogLine("***Error logging player " + p.id + "***");
-					Logger.loudLog(e);
-				}	
+				savePlayer(p);
 			}
 			for(File f: indvPlayerDirs){
 				if(Player.isTracked(Integer.parseInt(f.getName()))){ //if player is being tracked
@@ -159,12 +197,20 @@ public class IOHandler {
 		}
 	}
 	
-	private void loadPlayer(File playerFolder) throws Exception{
+	/**
+	 * Loads a Player into the system.
+	 * 
+	 * @param playerFolder - File representation of the player's folder path
+	 * @throws IOException when there are IO errors
+	 * @throws Exception when there is a problem loading a game
+	 */
+	private void loadPlayer(File playerFolder) throws IOException, Exception{
 		if(playerFolder.isDirectory()){
 			File gameDirectory = null;
 			Player created = null;
 			for(File g: playerFolder.listFiles()){	//for all files per folder
 				if(g.getAbsolutePath().endsWith(".txt")){	//if player data
+                                    Logger.loudLogLine("Loading data for " + g.getName().substring(0, g.getName().length()-4));
 					br = new BufferedReader(new FileReader(g));
 					String in = br.readLine();
 					if(in != null && !in.equals("null")){
@@ -179,7 +225,7 @@ public class IOHandler {
 			}
 			if(created != null){
 				loadGames(created, gameDirectory);
-				System.out.println("  " + created.summaryShort() + " loaded.");
+				Logger.loudLogLine("  " + created.summaryShort() + " loaded.");
 				if(!((Boolean) ConfigVars.get(ConfigVars.COMPLETE_ONLY)))
 					created.update();
 			}
@@ -188,7 +234,15 @@ public class IOHandler {
 		}
 	}
 	
-	private void loadGames(Player created, File gameDirectory) throws Exception{
+	/**
+	 * Loads all games for the specified player.
+	 * 
+	 * @param created - the player who should be associated with the games
+	 * @param gameDirectory - File representation of the player's game folder path
+	 * @throws IOException when there are IO errors
+	 * @throws Exception when there is an issue loading a game
+	 */
+	private void loadGames(Player created, File gameDirectory) throws IOException, Exception{
 		if(gameDirectory == null)
 			return;
 		for(File gameFile: gameDirectory.listFiles()){
@@ -200,20 +254,22 @@ public class IOHandler {
 					temp.load();
 					created.addGame(temp);
 				}
-				continue;
 			}
 		}
 	}
 	
+	/**
+	 * Resets all data in the program, then loads all Players not marked for deletion.
+	 * 
+	 * @throws Exception when there is an error loading a Player
+	 */
 	public void matchLiveToDisk() throws Exception{
 		synchronized(sync){
 			List<File> indvPlayerDirs = Arrays.asList(playerDir.listFiles());
 			Player.resetTracked();
 			for(File f: indvPlayerDirs){
-				if(toBeDeleted.contains(f))
-					continue;
-				else
-					loadPlayer(f);
+				if(!toBeDeleted.contains(f))
+                	loadPlayer(f);
 			}
 		}
 	}
@@ -246,15 +302,24 @@ public class IOHandler {
 	}
 	
 	//TODO fork a new thread for every call to this - should write while you interact with the program
+	/**
+	 * Cleans up all responsibilities.&nbsp;
+	 * More specifically, calls matchDiskToLive(), cleanFiles, and then writes out the Logger.
+	 */
 	public void cleanUp(){
-		synchronized(sync){
-			if(!canWrite)
-				return;
-			matchDiskToLive();
-			cleanFiles();
-			try{Logger.writeOut();}
-			catch(Exception e){e.printStackTrace();}
+		if(!canWrite)
+			return;
+		Logger.logLine("Writing files to disk...");
+		matchDiskToLive();
+		Logger.logLine("Cleaning up deleted files...");
+		cleanFiles();
+		Logger.logLine("Writing logs...");
+		try{
+			Logger.writeOut();
 		}
+		catch(IOException e){
+                        Logger.log(e);
+                    }
 	}
 	
 }

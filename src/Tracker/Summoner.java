@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public class Summoner {
 
-	PlayerMini summoner;
+    PlayerMini summoner;
     PlayerStats stats;
     boolean won;
     int[] items = new int[7];
-    transient int kills, deaths, assists, gold;
+    transient int kills, deaths, assists, gold, cs, wards;
     transient RecentGame game;
     transient TeamStruct teamStr;
     transient Champion champ;
@@ -44,6 +44,22 @@ public class Summoner {
         	load(purple);
     }
     
+    public boolean won(){
+        return won;
+    }
+    
+    public PlayerMini getPlayer(){
+        return summoner;
+    }
+    
+    public PlayerStats getStats(){
+    	return stats;
+    }
+    
+    public ArrayList<Item> getItems(){
+    	return usedItems;
+    }
+    
     public void load(TeamStruct str) throws Exception{
     	teamStr = str;
     	champ = Champion.findChampion(summoner.championId);
@@ -52,6 +68,8 @@ public class Summoner {
         deaths = stats.getNumDeaths();
         assists = stats.getAssists();
         gold = stats.getGoldEarned();
+        cs = stats.getCS();
+        wards = stats.getWardPlaced();
         items[0] = stats.getItem0();
         items[1] = stats.getItem1();
         items[2] = stats.getItem2();
@@ -97,9 +115,9 @@ public class Summoner {
     }
     
     public String summary(boolean incomplete){
-    	return summoner.name + ":" + summoner.summonerId + " ("+(won?"WON":"LOSS")+")\n    "
+    	return summoner.name + ":" + summoner.summonerId + " ("+(won?"WIN":"LOSS")+")\n    "
     			+ KDAString() + String.format(" %02.2fKDA ", KDAratio())
-    			+ stats.getCS() + "CS (" + stats.getGoldEarned() + " gold) as " + champ.getName()
+    			+ cs + "CS (" + gold + " gold) as " + champ.getName()
     			+ (incomplete ? "" : "\n    Contribution: " + String.format("%+03.0f%%", getContribution()*100));
     }
     
@@ -121,6 +139,18 @@ public class Summoner {
     	if(teamStr == null || teamStr.kills == 0)
     		return kills;
     	return ((double)kills/teamStr.kills);
+    }
+    
+    public int kills(){
+        return kills;
+    }
+    
+    public int deaths(){
+        return deaths;
+    }
+    
+    public int assists(){
+        return assists;
     }
     
     public double getAssistContribution(){
@@ -150,6 +180,14 @@ public class Summoner {
     
     public long getGold(){
     	return gold;
+    }
+    
+    public int getCS(){
+        return cs;
+    }
+    
+    public int wardsPlaced(){
+        return wards;
     }
     
     public double KDAratio(){

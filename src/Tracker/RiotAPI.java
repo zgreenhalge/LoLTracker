@@ -6,13 +6,24 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import java.lang.reflect.Type;
 
-
+/**
+ * In charge of methodically creating calls to Riot Servers.&nbsp; Always used conjunction with a RiotCaller.
+ * @author Zach Greenhalge
+ * @see RiotCaller
+ *
+ */
 public class RiotAPI {
 	
 	private static String reqURL;
 	private static Gson creator = new Gson();
 	private static RiotCaller caller = new RiotCaller();
 	
+	/**
+	 * Generates the query to Riot servers to retrieve a summary of a Player's queues by their ID.
+	 * @param id of the Player who's summaries are to be retrieved
+	 * @return a List of QueueSummary
+	 * @throws Exception when there is an issue retrieving the data
+	 */
 	public static ArrayList<QueueSummary> getSummary(int summonerId) throws Exception{
 		SummaryReturn temp = null;
 		String string;

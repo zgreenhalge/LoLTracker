@@ -1,5 +1,8 @@
 package Tracker;
 
+/**
+ * A representation of an ItemImage passed from Riot servers.
+ */
 public class ItemImage {
 
 	String full;

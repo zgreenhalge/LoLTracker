@@ -1,5 +1,8 @@
 package Tracker;
 
+/**
+ * Basic information about a specific Item.
+ */
 public class ItemStat {
 
 	double FlatArmorMod;		

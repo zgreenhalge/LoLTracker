@@ -1,0 +1,116 @@
+
+Checking saved files..
+Loading data for 24945987
+  ChaosRefined:24945987 (Lvl 30) - 49 games loaded.
+ created!
+ created!
+Loading data for 25118159
+  celticdragon:25118159 (Lvl 30) - 51 games loaded.
+Loading data for 35534142
+  Ginja Ninja2:35534142 (Lvl 30) - 25 games loaded.
+Loading data for 35595129
+  Brotoss Jump:35595129 (Lvl 30) - 26 games loaded.
+Loading data for 35800238
+  Honest Abe1:35800238 (Lvl 30) - 30 games loaded.
+#####################################
+Exception: Game 1337321378 does not exist in recent games
+  NaiAlord:32885297
+ Game 1337321378 does not exist in recent games
+  NaiAlord:32885297
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:54)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Updater.main(Updater.java:16)
+   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+   sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+   java.lang.reflect.Method.invoke(Unknown Source)
+   org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+#####################################
+ created incompletely
+ created!
+#####################################
+Exception: Game 1336935887 does not exist in recent games
+  crazyfuq:38632485
+ Game 1336935887 does not exist in recent games
+  crazyfuq:38632485
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:52)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Updater.main(Updater.java:16)
+   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+   sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+   java.lang.reflect.Method.invoke(Unknown Source)
+   org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1336883076 does not exist in recent games
+  Wereguate:26618537
+ Game 1336883076 does not exist in recent games
+  Wereguate:26618537
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:54)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Updater.main(Updater.java:16)
+   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+   sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+   java.lang.reflect.Method.invoke(Unknown Source)
+   org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1336870075 does not exist in recent games
+  ßelial:20368226
+ Game 1336870075 does not exist in recent games
+  ßelial:20368226
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:52)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Updater.main(Updater.java:16)
+   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+   sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+   java.lang.reflect.Method.invoke(Unknown Source)
+   org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+#####################################
+ created incompletely
+Loading data for 46992754
+  SeptimusAstrum:46992754 (Lvl 30) - 32 games loaded.
+ created!
+#####################################
+Exception: Game 1337494399 does not exist in recent games
+  H2oBalais:35007810
+ Game 1337494399 does not exist in recent games
+  H2oBalais:35007810
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:54)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Updater.main(Updater.java:16)
+   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+   sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+   java.lang.reflect.Method.invoke(Unknown Source)
+   org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+#####################################
+ created incompletely
+Initialization completed!
+ChaosRefined found in the system!
+Brotoss Jump found in the system!
+celticdragon found in the system!
+Ginja Ninja2 found in the system!
+Honest Abe1 found in the system!
+SeptimusAstrum found in the system!
+All players are up-to-date with Riot servers

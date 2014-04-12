@@ -1,0 +1,655 @@
+
+Checking saved files..
+Loading static data..
+Loading data for 24945987
+  ChaosRefined:24945987 (Lvl 30) - 9 games loaded.
+ created!
+#####################################
+Exception: Game 1339625580 does not exist in recent games
+  Glitterpoop:51704875
+ Game 1339625580 does not exist in recent games
+  Glitterpoop:51704875
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+ created!
+#####################################
+Exception: Game 1338543979 does not exist in recent games
+  xAhlex:23477596
+ Game 1338543979 does not exist in recent games
+  xAhlex:23477596
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1338511065 does not exist in recent games
+  Ivykae:47741650
+ Game 1338511065 does not exist in recent games
+  Ivykae:47741650
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1337503702 does not exist in recent games
+  Majuba:20574718
+ Game 1337503702 does not exist in recent games
+  Majuba:20574718
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1337465782 does not exist in recent games
+  hoopboy2020:23219172
+ Game 1337465782 does not exist in recent games
+  hoopboy2020:23219172
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1335635807 does not exist in recent games
+  dragon4ever12245:34895905
+ Game 1335635807 does not exist in recent games
+  dragon4ever12245:34895905
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1334377589 does not exist in recent games
+  LeBIink:30369741
+ Game 1334377589 does not exist in recent games
+  LeBIink:30369741
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1334348791 does not exist in recent games
+  H Aitch H:35861225
+ Game 1334348791 does not exist in recent games
+  H Aitch H:35861225
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+Loading data for 25118159
+  celticdragon:25118159 (Lvl 30) - 9 games loaded.
+ created!
+#####################################
+Exception: Game 1339625580 does not exist in recent games
+  Glitterpoop:51704875
+ Game 1339625580 does not exist in recent games
+  Glitterpoop:51704875
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+ created!
+ created!
+#####################################
+Exception: Game 1338543979 does not exist in recent games
+  xAhlex:23477596
+ Game 1338543979 does not exist in recent games
+  xAhlex:23477596
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1338511065 does not exist in recent games
+  Ivykae:47741650
+ Game 1338511065 does not exist in recent games
+  Ivykae:47741650
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1334377589 does not exist in recent games
+  LeBIink:30369741
+ Game 1334377589 does not exist in recent games
+  LeBIink:30369741
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1334348791 does not exist in recent games
+  H Aitch H:35861225
+ Game 1334348791 does not exist in recent games
+  H Aitch H:35861225
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1334331340 does not exist in recent games
+  Abraham1907:21995438
+ Game 1334331340 does not exist in recent games
+  Abraham1907:21995438
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1334295198 does not exist in recent games
+  Samus Frost:36381280
+ Game 1334295198 does not exist in recent games
+  Samus Frost:36381280
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+Loading data for 35534142
+  Ginja Ninja2:35534142 (Lvl 30) - 9 games loaded.
+ created!
+#####################################
+Exception: Game 1333834579 does not exist in recent games
+  Last Shad0w:44824053
+ Game 1333834579 does not exist in recent games
+  Last Shad0w:44824053
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1333794889 does not exist in recent games
+  aDuderoni:31303220
+ Game 1333794889 does not exist in recent games
+  aDuderoni:31303220
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1332432112 does not exist in recent games
+  Killua Swag:38590868
+ Game 1332432112 does not exist in recent games
+  Killua Swag:38590868
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1329420103 does not exist in recent games
+  Justin Shaw:32585141
+ Game 1329420103 does not exist in recent games
+  Justin Shaw:32585141
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1329362807 does not exist in recent games
+  sn4psn4p:42834566
+ Game 1329362807 does not exist in recent games
+  sn4psn4p:42834566
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1329319923 does not exist in recent games
+  Ocelot Revolver:23210908
+ Game 1329319923 does not exist in recent games
+  Ocelot Revolver:23210908
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1329275135 does not exist in recent games
+  Ocelot Revolver:23210908
+ Game 1329275135 does not exist in recent games
+  Ocelot Revolver:23210908
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1329174510 does not exist in recent games
+  legendm8:47934699
+ Game 1329174510 does not exist in recent games
+  legendm8:47934699
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1319254966 does not exist in recent games
+  OrangeRobin:38780657
+ Game 1319254966 does not exist in recent games
+  OrangeRobin:38780657
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+Loading data for 35595129
+  Brotoss Jump:35595129 (Lvl 30) - 9 games loaded.
+#####################################
+Exception: Game 1333834579 does not exist in recent games
+  Last Shad0w:44824053
+ Game 1333834579 does not exist in recent games
+  Last Shad0w:44824053
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1333794889 does not exist in recent games
+  aDuderoni:31303220
+ Game 1333794889 does not exist in recent games
+  aDuderoni:31303220
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1332432112 does not exist in recent games
+  Killua Swag:38590868
+ Game 1332432112 does not exist in recent games
+  Killua Swag:38590868
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1332120477 does not exist in recent games
+  Cautious Turtle:36869491
+ Game 1332120477 does not exist in recent games
+  Cautious Turtle:36869491
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1332064574 does not exist in recent games
+  King Sensitive:47797277
+ Game 1332064574 does not exist in recent games
+  King Sensitive:47797277
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1331966887 does not exist in recent games
+  nainoax3:32876340
+ Game 1331966887 does not exist in recent games
+  nainoax3:32876340
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1330610880 does not exist in recent games
+  XxFLOWxX:38350956
+ Game 1330610880 does not exist in recent games
+  XxFLOWxX:38350956
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1329420103 does not exist in recent games
+  Justin Shaw:32585141
+ Game 1329420103 does not exist in recent games
+  Justin Shaw:32585141
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1329362807 does not exist in recent games
+  sn4psn4p:42834566
+ Game 1329362807 does not exist in recent games
+  sn4psn4p:42834566
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1328463111 does not exist in recent games
+  Peachlol:40681174
+ Game 1328463111 does not exist in recent games
+  Peachlol:40681174
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+Loading data for 35800238
+  Honest Abe1:35800238 (Lvl 30) - 11 games loaded.
+ created!
+ created!
+ created!
+ created!
+#####################################
+Exception: Game 1339485477 does not exist in recent games
+  MrDrew:20055434
+ Game 1339485477 does not exist in recent games
+  MrDrew:20055434
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1339416836 does not exist in recent games
+  revolvingdOOrknb:40553679
+ Game 1339416836 does not exist in recent games
+  revolvingdOOrknb:40553679
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: null
+ null
+   Tracker.GameStat.<init>(GameStat.java:48)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1338793134 does not exist in recent games
+  BlueMarcus:31539291
+ Game 1338793134 does not exist in recent games
+  BlueMarcus:31539291
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1337465782 does not exist in recent games
+  hoopboy2020:23219172
+ Game 1337465782 does not exist in recent games
+  hoopboy2020:23219172
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1337321378 does not exist in recent games
+  NaiAlord:32885297
+ Game 1337321378 does not exist in recent games
+  NaiAlord:32885297
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+Loading data for 46992754
+  SeptimusAstrum:46992754 (Lvl 30) - 36 games loaded.
+ created!
+ created!
+ created!
+#####################################
+Exception: Game 1337522775 does not exist in recent games
+  relaxpooh:37251100
+ Game 1337522775 does not exist in recent games
+  relaxpooh:37251100
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1337494399 does not exist in recent games
+  Gorgeous Neptune:34059746
+ Game 1337494399 does not exist in recent games
+  Gorgeous Neptune:34059746
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1336673103 does not exist in recent games
+  xela1595:304490
+ Game 1336673103 does not exist in recent games
+  xela1595:304490
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1334889287 does not exist in recent games
+  Valentin Amour:34174559
+ Game 1334889287 does not exist in recent games
+  Valentin Amour:34174559
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1334888652 does not exist in recent games
+  MMS 3rd:50522317
+ Game 1334888652 does not exist in recent games
+  MMS 3rd:50522317
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1334858267 does not exist in recent games
+  Dutchman1715:21716644
+ Game 1334858267 does not exist in recent games
+  Dutchman1715:21716644
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:53)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+#####################################
+Exception: Game 1335985145 does not exist in recent games
+  nozonozo:41951920
+ Game 1335985145 does not exist in recent games
+  nozonozo:41951920
+   Tracker.Summoner.<init>(Summoner.java:25)
+   Tracker.GameStat.<init>(GameStat.java:51)
+   Tracker.Player.update(Player.java:152)
+   Tracker.IOHandler.loadPlayer(IOHandler.java:230)
+   Tracker.IOHandler.init(IOHandler.java:107)
+   Tracker.Main.main(Main.java:24)
+#####################################
+ created incompletely
+Initialization completed!
+
+Welcome to the League of Legends Statistical Database and Player Tracker!
+-------------------------04/09/2014 14:48:23--------------------------
+ (This product is not endorsed, certified or otherwise approved)
+    (in any way by Riot Games, Inc. or any of its affiliates.)
+
+Currently tracking: 6
+ ChaosRefined:24945987 (Lvl 30) - 19 games
+ celticdragon:25118159 (Lvl 30) - 19 games
+ Ginja Ninja2:35534142 (Lvl 30) - 19 games
+ Brotoss Jump:35595129 (Lvl 30) - 19 games
+ Honest Abe1:35800238 (Lvl 30) - 21 games
+ SeptimusAstrum:46992754 (Lvl 30) - 46 games
+
+ Complete Only___________false
+ Dev mode enabled________true
+ Known incomplete games (165/76): 1315842627,1315818099,1315813916,1315342945,1315156312,1315005183,1314019628,1313981781,1313942611,1313869985,1313824834,1312895954,1311859677,1307974260,1306911446,1306807673,1305836511,1314564605,1314532966,1314490660,1314215677,1314159248,1314108267,1314059522,1316486400,1315970338,1315929471,1315446650,1315349552,1322459258,1322412862,1322380281,1322352996,1322321643,1322209318,1322193852,1321037879,1319565125,1319479102,1323160393,1323063270,1322218704,1322101138,1321143680,1321084736,1319254966,1319187266,1319163851,1318964534,1318778102,1318599434,1318419270,1317551024,1317448812,1317406306,1323779819,1321482452,1321441366,1320398378,1320376623,1320276115,1319115351,1320284681,1320809487,1321193907,1321840601,1321939561,1323113881,1321006775,1321367279,1321835893,1323765724,1325007078,1325024753,1325216485,1328205550,1329046054,1330228944,1331716872,1331756854,1333432417,1333473771,1333575856,1334225595,1334239148,1334295198,1334331340,1334348791,1334377589,1335635807,1328818648,1328951042,1328963290,1330022103,1330849568,1331621194,1333086820,1333133838,1333166701,1333205701,1329174510,1329319923,1333794889,1333834579,1328318862,1328358135,1328403680,1328463111,1331966887,1328283545,1329216741,1330694653,1330759072,1331611732,1331641986,1331678099,1333017365,1333042894,1333215904,1333253079,1334165401,1334169296,1335891206,1335920148,1335946069,1327885429,1330257700,1330370799,1330425365,1330475727,1331570668,1331590109,1331634268,1334409322,1334880871,1334952881,1335886117,1337321378,1336935887,1336883076,1336870075,1337494399,1339051626,1339416836,1339485477,1339586918,1338543979,1338511065,1337503702,1337465782,1339625580,1332432112,1329420103,1329362807,1329275135,1332120477,1332064574,1330610880,1338793134,1337522775,1336673103,1334889287,1334888652,1334858267,1335985145
+

@@ -1,0 +1,286 @@
+
+
+Welcome to the League of Legends Statistical Database and Player Tracker!
+-------------------------03/21/2014 16:21:05--------------------------
+ (This product is not endorsed, certified or otherwise approved)
+    (in any way by Riot Games, Inc. or any of its affiliates.)
+
+Currently tracking: 4
+ ChaosRefined:24945987 (Lvl 30) - 10 games
+ celticdragon:25118159 (Lvl 30) - 10 games
+ Brotoss Jump:35595129 (Lvl 30) - 7 games
+ Ginja Ninja2:35534142 (Lvl 30) - 8 games
+
+ Complete Only___________false
+ Dev mode enabled________true
+ Known incomplete games (29/35): 1315842627,1315818099,1315813916,1315342945,1315156312,1315005183,1314019628,1313981781,1313942611,1313869985,1313824834,1312895954,1311859677,1307974260,1306911446,1306807673,1305836511,1314564605,1314532966,1314490660,1314215677,1314159248,1314108267,1314059522,1316486400,1315970338,1315929471,1315446650,1315349552
+
+>update brotossjump
+
+>?
+Valid commands (#commands are not yet implemented):
+#riot [command] [summonerName]
+ update -s [summonerName]
+ add [summonerName],[summonerName],[summonerName]... 
+ list -c -r [summoners || games]
+ summary -g [gameID] -s [summonerName]
+#history -v -r -p [timePeriod]
+#query
+ settings -c  save  ~to save all data
+ quit  ~(or q) to save and the program
+
+>update -s brotossjump
+
+>update
+All players are up-to-date with Riot servers
+
+>list games -c
+
+(1) ID: 1315769337 NORMAL (COMPLETE) on 03/20/2014 12:44:08
+    Played by: ChaosRefined:24945987 (WON)
+    06K/07D/19A 3.57KDA 149CS (15521 gold) as Nidalee
+    Contribution: +10%
+
+(2) ID: 1315864421 RANKED_SOLO_5x5 (COMPLETE) on 03/20/2014 16:03:11
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    01K/05D/12A 2.60KDA 7CS (9395 gold) as Janna
+    Contribution: +06%
+
+(3) ID: 1315889675 RANKED_SOLO_5x5 (COMPLETE) on 03/20/2014 16:55:05
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    03K/06D/08A 1.83KDA 195CS (11675 gold) as Renekton
+    Contribution: +04%
+
+(4) ID: 1316452706 RANKED_SOLO_5x5 (COMPLETE) on 03/20/2014 22:40:27
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    02K/03D/02A 1.33KDA 207CS (9197 gold) as Varus
+    Contribution: +14%
+
+(5) ID: 1316517772 NORMAL (COMPLETE) on 03/21/2014 00:19:16
+    Played by: ChaosRefined:24945987 (WON)
+    03K/05D/11A 2.80KDA 216CS (13092 gold) as Caitlyn
+    Contribution: +08%
+
+(6) ID: 1316587161 NORMAL (COMPLETE) on 03/21/2014 00:52:17
+    Played by: ChaosRefined:24945987 (LOSS)
+    02K/05D/03A 1.00KDA 113CS (6477 gold) as DrMundo
+    Contribution: +10%
+
+>list games
+
+(1) ID: 1305836511 RANKED_SOLO_5x5 (INCOMPLETE) 03/11/2014 19:41:45
+    Played by: celticdragon:25118159 (LOSS)
+    00K/09D/07A 0.78KDA 63CS (6287 gold) as Zac
+
+(2) ID: 1306807673 NORMAL (INCOMPLETE) 03/12/2014 16:35:22
+    Played by: celticdragon:25118159 (LOSS)
+    03K/05D/08A 2.20KDA 31CS (6070 gold) as Morgana
+
+(3) ID: 1306911446 NORMAL (INCOMPLETE) 03/12/2014 17:33:47
+    Played by: celticdragon:25118159 (WON)
+    03K/06D/17A 3.33KDA 130CS (13610 gold) as Zac
+
+(4) ID: 1307974260 NORMAL (INCOMPLETE) 03/13/2014 18:02:19
+    Played by: celticdragon:25118159 (LOSS)
+    01K/07D/04A 0.71KDA 16CS (5976 gold) as Morgana
+
+(5) ID: 1311859677 NONE (INCOMPLETE) 03/17/2014 15:20:30
+    Played by: celticdragon:25118159 (LOSS)
+    02K/04D/00A 0.50KDA 87CS (8152 gold) as Velkoz
+
+(6) ID: 1312895954 NORMAL (INCOMPLETE) 03/17/2014 18:44:25
+    Played by: celticdragon:25118159 (LOSS)
+    01K/12D/09A 0.83KDA 100CS (8685 gold) as Singed
+
+(7) ID: 1313824834 NORMAL (INCOMPLETE) 03/18/2014 16:23:07
+    Played by: celticdragon:25118159 (WON)
+    01K/09D/19A 2.22KDA 22CS (11628 gold) as Thresh
+
+(8) ID: 1313869985 NORMAL (INCOMPLETE) 03/18/2014 17:20:33
+    Played by: celticdragon:25118159 (WON)
+    03K/11D/19A 2.00KDA 23CS (14433 gold) as Thresh
+
+(9) ID: 1313942611 NORMAL (INCOMPLETE) 03/18/2014 18:57:42
+    Played by: celticdragon:25118159 (LOSS)
+    00K/08D/07A 0.88KDA 16CS (7967 gold) as Morgana
+
+(10) ID: 1313981781 NORMAL (INCOMPLETE) 03/18/2014 19:30:29
+    Played by: celticdragon:25118159 (WON)
+    02K/01D/13A 15.00KDA 8CS (6921 gold) as Thresh
+
+(11) ID: 1314019628 NORMAL (INCOMPLETE) 03/18/2014 20:41:52
+    Played by: ChaosRefined:24945987 (LOSS)
+    00K/05D/00A 0.00KDA 80CS (4869 gold) as DrMundo
+
+(12) ID: 1314059522 RANKED_SOLO_5x5 (INCOMPLETE) 03/18/2014 21:26:32
+    Played by: Brotoss Jump:35595129 (LOSS)
+    02K/06D/03A 0.83KDA 139CS (9222 gold) as Nidalee
+
+(13) ID: 1314108267 NORMAL (INCOMPLETE) 03/18/2014 22:25:04
+    Played by: Brotoss Jump:35595129 (WON)
+    09K/02D/15A 12.00KDA 269CS (16826 gold) as Caitlyn
+
+(14) ID: 1314159248 NORMAL (INCOMPLETE) 03/18/2014 23:03:30
+    Played by: Brotoss Jump:35595129 (WON)
+    02K/02D/02A 2.00KDA 199CS (8901 gold) as Syndra
+
+(15) ID: 1314215677 NORMAL (INCOMPLETE) 03/18/2014 23:51:13
+    Played by: Brotoss Jump:35595129 (WON)
+    08K/03D/05A 4.33KDA 227CS (14479 gold) as Riven
+
+(16) ID: 1314490660 NORMAL (INCOMPLETE) 03/19/2014 00:33:05
+    Played by: Brotoss Jump:35595129 (WON)
+    11K/05D/08A 3.80KDA 150CS (12499 gold) as Nidalee
+
+(17) ID: 1314532966 NORMAL (INCOMPLETE) 03/19/2014 01:29:46
+    Played by: Brotoss Jump:35595129 (LOSS)
+    11K/12D/08A 1.58KDA 122CS (13757 gold) as Riven
+
+(18) ID: 1314564605 NORMAL (INCOMPLETE) 03/19/2014 02:19:45
+    Played by: Brotoss Jump:35595129 (LOSS)
+    04K/09D/06A 1.11KDA 128CS (11316 gold) as LeeSin
+
+(19) ID: 1315005183 RANKED_SOLO_5x5 (INCOMPLETE) 03/19/2014 19:41:57
+    Played by: ChaosRefined:24945987 (LOSS)
+    00K/04D/01A 0.25KDA 90CS (5470 gold) as Ashe
+
+(20) ID: 1315156312 ODIN_UNRANKED (INCOMPLETE) 03/19/2014 21:14:25
+    Played by: ChaosRefined:24945987 (WON)
+    03K/04D/10A 3.25KDA 13CS (6509 gold) as Khazix
+
+(21) ID: 1315342945 NORMAL (INCOMPLETE) 03/19/2014 21:53:58
+    Played by: ChaosRefined:24945987 (WON)
+    07K/05D/03A 2.00KDA 140CS (10616 gold) as DrMundo
+
+(22) ID: 1315349552 RANKED_SOLO_5x5 (INCOMPLETE) 03/19/2014 22:37:28
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    03K/09D/11A 1.56KDA 36CS (11857 gold) as Sona
+
+(23) ID: 1315446650 RANKED_SOLO_5x5 (INCOMPLETE) 03/19/2014 23:29:05
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    02K/05D/00A 0.40KDA 206CS (10886 gold) as Trundle
+
+(24) ID: 1315769337 NORMAL (COMPLETE) on 03/20/2014 12:44:08
+    Played by: ChaosRefined:24945987 (WON)
+    06K/07D/19A 3.57KDA 149CS (15521 gold) as Nidalee
+    Contribution: +10%
+
+(25) ID: 1315813916 NORMAL (INCOMPLETE) 03/20/2014 13:28:16
+    Played by: ChaosRefined:24945987 (LOSS)
+    01K/04D/03A 1.00KDA 201CS (10116 gold) as Nidalee
+
+(26) ID: 1315818099 NORMAL (INCOMPLETE) 03/20/2014 14:05:25
+    Played by: ChaosRefined:24945987 (LOSS)
+    00K/02D/03A 1.50KDA 49CS (5763 gold) as Evelynn
+
+(27) ID: 1315842627 NORMAL (INCOMPLETE) 03/20/2014 14:47:40
+    Played by: ChaosRefined:24945987 (WON)
+    09K/03D/05A 4.67KDA 178CS (14428 gold) as Khazix
+
+(28) ID: 1315864421 RANKED_SOLO_5x5 (COMPLETE) on 03/20/2014 16:03:11
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    01K/05D/12A 2.60KDA 7CS (9395 gold) as Janna
+    Contribution: +06%
+
+(29) ID: 1315889675 RANKED_SOLO_5x5 (COMPLETE) on 03/20/2014 16:55:05
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    03K/06D/08A 1.83KDA 195CS (11675 gold) as Renekton
+    Contribution: +04%
+
+(30) ID: 1315929471 RANKED_SOLO_5x5 (INCOMPLETE) 03/20/2014 17:37:51
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    01K/04D/06A 1.75KDA 196CS (10100 gold) as Jinx
+
+(31) ID: 1315970338 RANKED_SOLO_5x5 (INCOMPLETE) 03/20/2014 18:31:21
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    05K/07D/14A 2.71KDA 212CS (14806 gold) as Jinx
+
+(32) ID: 1316452706 RANKED_SOLO_5x5 (COMPLETE) on 03/20/2014 22:40:27
+    Played by: Ginja Ninja2:35534142 (LOSS)
+    02K/03D/02A 1.33KDA 207CS (9197 gold) as Varus
+    Contribution: +14%
+
+(33) ID: 1316486400 RANKED_SOLO_5x5 (INCOMPLETE) 03/20/2014 23:32:22
+    Played by: Ginja Ninja2:35534142 (WON)
+    07K/01D/17A 24.00KDA 192CS (14971 gold) as Nocturne
+
+(34) ID: 1316517772 NORMAL (COMPLETE) on 03/21/2014 00:19:16
+    Played by: ChaosRefined:24945987 (WON)
+    03K/05D/11A 2.80KDA 216CS (13092 gold) as Caitlyn
+    Contribution: +08%
+
+(35) ID: 1316587161 NORMAL (COMPLETE) on 03/21/2014 00:52:17
+    Played by: ChaosRefined:24945987 (LOSS)
+    02K/05D/03A 1.00KDA 113CS (6477 gold) as DrMundo
+    Contribution: +10%
+
+>summary -g 1316587161
+ID: 1316587161 NORMAL03/21/2014 00:52:17
+                 $!$!$Purple Team Wins$!$!$                 
+#########################BLUE TEAM##########################
+      Turrets: 02 Kills: 028 Deaths: 060 Assists: 026       
+   Total Gold: 059066 Avg Gold: 11813.00 Avg CS: 133.00     
+1)ChaosRefined:24945987 (LOSS)
+    02K/05D/03A 1.00KDA 113CS (6477 gold) as DrMundo
+    Contribution: +10%   Damage dealt: 056377 Damage taken: 014441
+    Damage healed: 005317 Wards placed: 9  Largest multi-kill: 1
+    Items: Ninja Tabi, Stealth Ward, Sunfire Cape, Kindlegem, Warden's Mail, Warding Totem (Trinket)
+2)sakayushi:50215516 (LOSS)
+    03K/06D/04A 1.17KDA 15CS (5475 gold) as Thresh
+    Contribution: +16%   Damage dealt: 017209 Damage taken: 015006
+    Damage healed: 001222 Wards placed: 16  Largest multi-kill: 1
+    Items: Nomad's Medallion, Ruby Sightstone, Health Potion, Boots of Mobility, Giant's Belt, Chain Vest, Warding Totem (Trinket)
+3)Cautious Turtle:36869491 (LOSS)
+    04K/06D/02A 1.00KDA 64CS (6442 gold) as Amumu
+    Contribution: +12%   Damage dealt: 063025 Damage taken: 017591
+    Damage healed: 003259 Wards placed: 3  Largest multi-kill: 1
+    Items: Spirit of the Spectral Wraith, Mercury's Treads, Chain Vest, Giant's Belt, Warding Totem (Trinket)
+4)UrFavoriteEnemy:31203831 (LOSS)
+    01K/05D/03A 0.80KDA 41CS (4688 gold) as Lucian
+    Contribution: +07%   Damage dealt: 018233 Damage taken: 005705
+    Damage healed: 000319 Wards placed: 1  Largest multi-kill: 1
+    Items: Doran's Blade, Health Potion, Berserker's Greaves, Stealth Ward, Vampiric Scepter, Warding Totem (Trinket)
+5)Ginja Ninja2:35534142 (LOSS)
+    04K/08D/01A 0.63KDA 101CS (6451 gold) as Diana
+    Contribution: +05%   Damage dealt: 063198 Damage taken: 016775
+    Damage healed: 000250 Wards placed: 6  Largest multi-kill: 1
+    Items: Doran's Ring, Abyssal Scepter, Fiendish Codex, Doran's Ring, Sorcerer's Shoes, Warding Totem (Trinket)
+########################PURPLE TEAM#########################
+      Turrets: 08 Kills: 058 Deaths: 028 Assists: 072       
+   Total Gold: 092444 Avg Gold: 18488.00 Avg CS: 234.00     
+1)mstrmje:19188420 (WON)
+    05K/01D/09A 14.00KDA 148CS (9801 gold) as Nocturne
+    Contribution: +18%   Damage dealt: 138643 Damage taken: 017774
+    Damage healed: 006195 Wards placed: 7  Largest multi-kill: 1
+    Items: Boots of Mobility, Warden's Mail, Wriggle's Lantern, Sunfire Cape, Vision Ward, Zephyr, Warding Totem (Trinket)
+2)Proreader:39049743 (WON)
+    03K/05D/14A 3.40KDA 23CS (8621 gold) as Leona
+    Contribution: +07%   Damage dealt: 022382 Damage taken: 014928
+    Damage healed: 001416 Wards placed: 7  Largest multi-kill: 2(x1)
+    Items: Face of the Mountain, Randuin's Omen, Ninja Tabi, Chain Vest, Cloth Armor, Chain Vest, Warding Totem (Trinket)
+3)StylezDizzY:21229347 (WON)
+    03K/03D/00A 1.00KDA 169CS (8403 gold) as Vayne
+    Contribution: -06%   Damage dealt: 091205 Damage taken: 011410
+    Damage healed: 001147 Wards placed: 2  Largest multi-kill: 1
+    Items: Blade of the Ruined King, Health Potion, Doran's Blade, Berserker's Greaves, Zeal, Cloak of Agility, Warding Totem (Trinket)
+4)CycloneTide:37804258 (WON)
+    08K/05D/10A 3.60KDA 130CS (9828 gold) as Varus
+    Contribution: +10%   Damage dealt: 083527 Damage taken: 012621
+    Damage healed: 000937 Wards placed: 3  Largest multi-kill: 2(x2)
+    Items: Doran's Blade, The Bloodthirster, Phantom Dancer, Berserker's Greaves, Last Whisper, Warding Totem (Trinket)
+5)Terrablast:22076240 (WON)
+    10K/00D/03A 13.00KDA 115CS (9569 gold) as Kassadin
+    Contribution: +21%   Damage dealt: 055835 Damage taken: 009342
+    Damage healed: 000666 Wards placed: 6  Largest multi-kill: 2(x1)
+    Items: Doran's Ring, Rod of Ages, Tear of the Goddess, Lich Bane, Boots of Speed, Blasting Wand, Warding Totem (Trinket)
+
+  MVP: CycloneTide (WON)
+    08K/05D/10A 3.60KDA 130CS (9828 gold) as Varus
+    Contribution: +10%
+  Honorable mention: Terrablast (WON)
+    10K/00D/03A 13.00KDA 115CS (9569 gold) as Kassadin
+    Contribution: +21%
+
+
+>quit
+Cleaning up...

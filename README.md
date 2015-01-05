@@ -2,7 +2,7 @@
 
 ###THIS IS AN OUT OF DATE VERSION
 
-######I'm extremely close to an alpha version of this application - as soon as it is finished it will be available here as an executable jar
+######Work has frozen during the building of a functional GUI - if you're interested in a (functional) command line version, contact me and I can provide it. I'd rather not distribute it openly since the code base behind it is fragmented & gross - this project has been in the idea phase for too long and changed as Riot's API has changed
 
 __________________________________________________________________________________________
 A multi-funtional tool for tracking friends and generating statistics in League of Legends by utilising Riot Game's API.

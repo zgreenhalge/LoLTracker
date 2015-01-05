@@ -8,7 +8,7 @@ ________________________________________________________________________________
 A multi-funtional tool for tracking friends and generating statistics in League of Legends by utilising Riot Game's API.
 Once you download the app, just run it once a day after you play your games (or after every game, I'm not your mother) and it will access and catalogue your games. By building up a large pool of games that you/your friends/whoever you want to track has played, you will be able to look at patterns, tendencies, and generate statistics.
 
-##WHEN YOU ARE DONE, MAKE SURE YOU TYPE QUIT - OTHERWISE IT WILL NOT SAVE THE DATA AND YOU'LL HAVE TO RETRIEVE IT ALL OVER AGAIN
+##Make sure to save data before you close the application !
 
 Currently only available as a text-based interface.
 __________________________________________________________________________________________
